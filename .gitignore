@@ -1,0 +1,4 @@
+# General OS artifacts
+.DS_Store
+Thumbs.db
+.idea/
