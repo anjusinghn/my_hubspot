@@ -2,3 +2,6 @@
   └ Lint executed for fe; backend smoke-tested by spinning server and hitting API via shared client utilities.
     ✔ Restructure workspace to fe and be packages and baseline dependencies
     ✔ Implement Next.js UI shell with navigable modules and mock data per blueprint
+    ✔ Build Express backend with endpoints, mock persistence, and SSE stub
+    ✔ Hook frontend data fetching to backend services and add loading/error states
+    ✔ Run lint/tests and document verification status
