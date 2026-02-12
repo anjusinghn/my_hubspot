@@ -6,3 +6,6 @@ export function createSseStream(res, { heartbeatMs = 15000 } = {}) {
 
   const write = (payload) => {
     res.write(payload);
+  };
+
+  const send = (event, data) => {
