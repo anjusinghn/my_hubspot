@@ -6,3 +6,7 @@
 set -e  # Exit on error
 
 echo "🚀 Setting up Parrot CTFs Hubspot Authentication..."
+echo ""
+
+# Navigate to frontend
+cd fe
