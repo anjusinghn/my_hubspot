@@ -5,3 +5,6 @@ const router = Router();
 
 router.get("/settings", (_req, res) => {
   res.json(store.getSettings());
+});
+
+export default router;
