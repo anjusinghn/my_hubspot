@@ -5,3 +5,6 @@ export function errorHandler(err, req, res, _next) {
     console.error("[error]", err);
   }
   res.status(status).json({ error: message });
+}
+
+export default errorHandler;
