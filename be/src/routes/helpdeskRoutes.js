@@ -5,3 +5,6 @@ const router = Router();
 
 router.get("/helpdesk", (_req, res) => {
   res.json(store.getHelpdesk());
+});
+
+export default router;
