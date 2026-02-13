@@ -6,3 +6,7 @@ export const mockData = {
       { label: "Tickets at risk", value: "6", delta: "-2", trend: "down", icon: "alert", caption: "Require triage" },
       { label: "AI deflection", value: "42%", delta: "+5%", trend: "up", icon: "spark", caption: "Last 7 days" }
     ],
+    upcomingMeetings: [
+      { id: "mtg-1", title: "Enterprise onboarding sync", when: "Today, 4:30 PM EST", owner: "Janet Walters", attendee: "Nova Analytics" },
+      { id: "mtg-2", title: "Quarterly renewal prep", when: "Tomorrow, 9:00 AM EST", owner: "Derrick Wade", attendee: "Blue Ridge Energy" }
+    ],
