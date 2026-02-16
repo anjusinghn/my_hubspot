@@ -6,3 +6,6 @@ if (process.env.NODE_ENV !== "production") {
 
 const numberFromEnv = (value, fallback) => {
   const parsed = Number.parseInt(value ?? "", 10);
+  return Number.isNaN(parsed) ? fallback : parsed;
+};
+
