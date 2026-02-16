@@ -5,3 +5,7 @@
     ✔ Build Express backend with endpoints, mock persistence, and SSE stub
     ✔ Hook frontend data fetching to backend services and add loading/error states
     ✔ Run lint/tests and document verification status
+
+• I’m putting together a clear summary highlighting the restructuring into fe and be, new UI features including drag-and-drop and SSE chat, and backend setup with
+  Express. I’ll reference key files with line numbers to anchor each feature, cover environment setup including .env.local.example, and describe verification steps like
+  linting and integration tests. Finally, I’ll mention natural next steps like hooking to a database without directly asking the user.
