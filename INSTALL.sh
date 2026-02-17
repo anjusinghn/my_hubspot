@@ -10,3 +10,7 @@ echo ""
 
 # Navigate to frontend
 cd fe
+
+echo "📦 Installing packages..."
+npm install better-auth @prisma/client
+npm install -D prisma
