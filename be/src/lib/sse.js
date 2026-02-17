@@ -9,3 +9,7 @@ export function createSseStream(res, { heartbeatMs = 15000 } = {}) {
   };
 
   const send = (event, data) => {
+    const asString = typeof data === "string" ? data : JSON.stringify(data);
+    write(`event: ${event}\n`);
+    write(`data: ${asString}\n\n`);
+  };
