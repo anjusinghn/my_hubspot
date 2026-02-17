@@ -6,3 +6,6 @@ import meetingsRouter from './routes/meetings.js';
 import schedulerRouter from './routes/schedulerRoutes.js';
 
 dotenv.config();
+
+export function createServer() {
+  const app = express();
