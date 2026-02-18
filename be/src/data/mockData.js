@@ -10,3 +10,7 @@ export const mockData = {
       { id: "mtg-1", title: "Enterprise onboarding sync", when: "Today, 4:30 PM EST", owner: "Janet Walters", attendee: "Nova Analytics" },
       { id: "mtg-2", title: "Quarterly renewal prep", when: "Tomorrow, 9:00 AM EST", owner: "Derrick Wade", attendee: "Blue Ridge Energy" }
     ],
+    openTickets: [
+      { id: "TCK-1043", subject: "SLA breach: integrations down", priority: "Urgent", owner: "Iris Shah", sla: "4m remaining" },
+      { id: "TCK-1044", subject: "Billing export mismatch", priority: "High", owner: "Miles Coleman", sla: "1h 12m" }
+    ],
