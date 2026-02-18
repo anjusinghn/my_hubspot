@@ -10,3 +10,7 @@ datasource db {
 model Deal {
   id         Int       @id @default(autoincrement())
   name       String
+  amount     String?
+  stage      String    @default("new")
+  owner      String?
+  closeDate  DateTime?
