@@ -9,3 +9,7 @@ router.get("/chat/threads", (_req, res) => {
   res.json({ threads: store.getChatThreads() });
 });
 
+router.get("/chat/threads/:id/messages", (req, res) => {
+  const messages = store.getChatMessages(req.params.id);
+  res.json({ messages });
+});
