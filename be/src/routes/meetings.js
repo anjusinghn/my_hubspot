@@ -10,3 +10,7 @@ router.get('/links', async (_req, res) => {
     const links = rows.map((link) => ({
       id: link.id,
       name: link.title,
+      duration: link.duration,
+      owner: link.createdBy,
+      slug: link.slug,
+      createdAt: link.createdAt,
