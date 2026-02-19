@@ -8,3 +8,6 @@ router.get("/knowledge", (_req, res) => {
 });
 
 router.post("/knowledge", (req, res, next) => {
+  try {
+    const article = store.upsertKnowledgeArticle(req.body);
+    res.status(201).json(article);
