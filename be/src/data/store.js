@@ -10,3 +10,7 @@ export class DataStore {
     this.state = deepClone(seed);
   }
 
+  getDashboard() {
+    return deepClone(this.state.dashboard);
+  }
+
