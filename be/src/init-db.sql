@@ -10,3 +10,6 @@ CREATE TABLE IF NOT EXISTS deals (
   close_date DATE,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Create meeting_links table
