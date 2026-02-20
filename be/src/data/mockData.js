@@ -14,3 +14,7 @@ export const mockData = {
       { id: "TCK-1043", subject: "SLA breach: integrations down", priority: "Urgent", owner: "Iris Shah", sla: "4m remaining" },
       { id: "TCK-1044", subject: "Billing export mismatch", priority: "High", owner: "Miles Coleman", sla: "1h 12m" }
     ],
+    latestChats: [
+      { id: "chat-17", contact: "Lauren Pierce", channel: "Website", snippet: "Thanks Lauren, sending the proposal now…", updatedAt: "3m ago" },
+      { id: "chat-21", contact: "ACME Robotics", channel: "WhatsApp", snippet: "AI replied: I'll escalate this to a human agent.", updatedAt: "12m ago" }
+    ],
