@@ -10,3 +10,7 @@ router.get('/', async (_req, res) => {
     res.json(
       deals.map((d) => ({
         id: d.id,
+        name: d.name,
+        amount: d.amount ?? '',
+        stage: d.stage,
+        owner: d.owner ?? '',

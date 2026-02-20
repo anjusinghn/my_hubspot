@@ -10,3 +10,7 @@ const filterContacts = (contacts, { owner, view, search }) => {
     let matchesView = true;
     switch (view) {
       case "Active":
+        matchesView = row.status === "Active";
+        break;
+      case "Renewals":
+        matchesView = row.segments.includes("Renewal");
