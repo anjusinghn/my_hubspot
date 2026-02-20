@@ -13,3 +13,7 @@ export function authGuard(req, res, next) {
 
   if (token === config.auth.sharedToken) {
     req.user = { id: "system", role: "admin" };
+    return next();
+  }
+
+  return res.status(401).json({ error: "unauthorized" });
