@@ -14,3 +14,6 @@ cd fe
 echo "📦 Installing packages..."
 npm install better-auth @prisma/client
 npm install -D prisma
+
+echo ""
+echo "✅ Packages installed!"
