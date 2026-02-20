@@ -13,3 +13,6 @@ export function createSseStream(res, { heartbeatMs = 15000 } = {}) {
     write(`event: ${event}\n`);
     write(`data: ${asString}\n\n`);
   };
+
+  const heartbeat = setInterval(() => {
+    send("heartbeat", { ts: Date.now() });
