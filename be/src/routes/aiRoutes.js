@@ -9,3 +9,6 @@ router.post("/ai/suggest", (req, res) => {
     message: `AI suggestion: ${echo}. Context signals processed (${(context || []).length} items).`,
     confidence: 0.78,
   });
+});
+
+export default router;
