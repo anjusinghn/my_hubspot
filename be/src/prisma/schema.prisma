@@ -14,3 +14,7 @@ model Deal {
   stage      String    @default("new")
   owner      String?
   closeDate  DateTime?
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+}
+
