@@ -14,3 +14,7 @@ router.get('/links', async (_req, res) => {
       owner: link.createdBy,
       slug: link.slug,
       createdAt: link.createdAt,
+      url: `http://localhost:3000/book/${link.slug}`,
+    }));
+    res.json(links);
+  } catch (error) {
