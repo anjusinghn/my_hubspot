@@ -14,3 +14,6 @@ router.put("/scheduler/availability", (req, res, next) => {
   } catch (error) {
     next(error);
   }
+});
+
+export default router;
