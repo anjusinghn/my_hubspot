@@ -13,3 +13,7 @@ CREATE TABLE IF NOT EXISTS deals (
 );
 
 -- Create meeting_links table
+CREATE TABLE IF NOT EXISTS meeting_links (
+  id SERIAL PRIMARY KEY,
+  title VARCHAR(255) NOT NULL,
+  duration VARCHAR(20) NOT NULL,
