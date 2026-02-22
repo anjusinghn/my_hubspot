@@ -14,3 +14,7 @@ router.get('/', async (_req, res) => {
         amount: d.amount ?? '',
         stage: d.stage,
         owner: d.owner ?? '',
+        closeDate: d.closeDate ?? null,
+        createdAt: d.createdAt,
+      }))
+    );
