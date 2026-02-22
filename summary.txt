@@ -12,3 +12,7 @@
 
 > Highlights
 
+  - Split the workspace into scoped packages and refreshed metadata/scripts so fe/package.json:1 and be/package.json:1 describe the new frontend/back-end apps plus
+  shared .env example at fe/.env.local.example:1.
+  - Built the Lexend-based app shell with responsive sidebar/topbar navigation in fe/components/AppShell.jsx:1 and expanded the glassmorphism theme + component utility
+  classes in fe/app/globals.css:1.
