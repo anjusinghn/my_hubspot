@@ -14,3 +14,7 @@ export class DataStore {
     return deepClone(this.state.dashboard);
   }
 
+  getContacts() {
+    return deepClone(this.state.contacts);
+  }
+
