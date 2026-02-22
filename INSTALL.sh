@@ -17,3 +17,7 @@ npm install -D prisma
 
 echo ""
 echo "✅ Packages installed!"
+echo ""
+
+# Check if .env.local exists
+if [ ! -f .env.local ]; then
