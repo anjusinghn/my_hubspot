@@ -14,3 +14,7 @@ const filterContacts = (contacts, { owner, view, search }) => {
         break;
       case "Renewals":
         matchesView = row.segments.includes("Renewal");
+        break;
+      case "Expansion":
+        matchesView = row.segments.includes("Expansion");
+        break;
