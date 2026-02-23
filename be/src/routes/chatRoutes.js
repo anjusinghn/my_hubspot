@@ -17,3 +17,6 @@ router.get("/chat/threads/:id/messages", (req, res) => {
 router.post("/chat/threads/:id/messages", (req, res, next) => {
   try {
     const payload = store.addChatMessage(req.params.id, req.body);
+    res.status(201).json(payload);
+  } catch (error) {
+    next(error);
