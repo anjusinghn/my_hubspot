@@ -17,3 +17,6 @@ export function authGuard(req, res, next) {
   }
 
   return res.status(401).json({ error: "unauthorized" });
+}
+
+export default authGuard;
