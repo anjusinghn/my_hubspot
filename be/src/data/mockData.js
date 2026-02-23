@@ -18,3 +18,7 @@ export const mockData = {
       { id: "chat-17", contact: "Lauren Pierce", channel: "Website", snippet: "Thanks Lauren, sending the proposal now…", updatedAt: "3m ago" },
       { id: "chat-21", contact: "ACME Robotics", channel: "WhatsApp", snippet: "AI replied: I'll escalate this to a human agent.", updatedAt: "12m ago" }
     ],
+    activity: [
+      { id: "act-1", type: "deal", actor: "Derrick Wade", description: "moved SolarOne rollout to Proposal", time: "5 minutes ago" },
+      { id: "act-2", type: "ticket", actor: "Iris Shah", description: "resolved ticket #TCK-1021", time: "21 minutes ago" },
+      { id: "act-3", type: "chat", actor: "AI Assistant", description: "answered pricing question for Lauren Pierce", time: "32 minutes ago" }
