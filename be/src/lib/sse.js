@@ -16,3 +16,7 @@ export function createSseStream(res, { heartbeatMs = 15000 } = {}) {
 
   const heartbeat = setInterval(() => {
     send("heartbeat", { ts: Date.now() });
+  }, heartbeatMs);
+
+  const close = () => {
+    clearInterval(heartbeat);
