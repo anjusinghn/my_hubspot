@@ -18,3 +18,7 @@ router.get('/links', async (_req, res) => {
     }));
     res.json(links);
   } catch (error) {
+    console.error('Error fetching meeting links:', error);
+    res.status(500).json({ error: 'Failed to fetch meeting links' });
+  }
+});
