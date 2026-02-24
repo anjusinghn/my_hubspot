@@ -18,3 +18,7 @@ const filterContacts = (contacts, { owner, view, search }) => {
       case "Expansion":
         matchesView = row.segments.includes("Expansion");
         break;
+      case "Churn risk":
+        matchesView = row.status.toLowerCase().includes("risk");
+        break;
+      default:
