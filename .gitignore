@@ -17,3 +17,7 @@ node_modules/
 .pnp.js
 
 # Build output
+dist/
+build/
+coverage/
+.next/
