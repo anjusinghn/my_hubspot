@@ -16,3 +16,6 @@
   shared .env example at fe/.env.local.example:1.
   - Built the Lexend-based app shell with responsive sidebar/topbar navigation in fe/components/AppShell.jsx:1 and expanded the glassmorphism theme + component utility
   classes in fe/app/globals.css:1.
+  - Implemented every feature surface from AGENTS.md with live API data: dashboard KPIs, CRM tables/board, scheduler, helpdesk, knowledge, and settings (fe/app/(app)/
+  dashboard/DashboardView.jsx:1, fe/app/(app)/crm/contacts/ContactsView.jsx:1, fe/app/(app)/scheduler/SchedulerView.jsx:1, etc.).
+  - Overhauled chat to stream messages from the backend, send replies, and request AI suggestions while tracking connection state (fe/app/(app)/chat/ChatView.jsx:1),

@@ -17,3 +17,6 @@ export const config = {
     enabled: process.env.API_AUTH_DISABLED !== "true",
     sharedToken: process.env.API_SHARED_TOKEN || "dev-token",
   },
+};
+
+export default config;
