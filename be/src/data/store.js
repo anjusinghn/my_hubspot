@@ -18,3 +18,7 @@ export class DataStore {
     return deepClone(this.state.contacts);
   }
 
+  upsertContact(contact) {
+    const existingIndex = this.state.contacts.rows.findIndex((item) => item.id === contact.id);
+    if (existingIndex >= 0) {
+      this.state.contacts.rows[existingIndex] = { ...this.state.contacts.rows[existingIndex], ...contact };
