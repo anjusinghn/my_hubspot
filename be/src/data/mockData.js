@@ -22,3 +22,7 @@ export const mockData = {
       { id: "act-1", type: "deal", actor: "Derrick Wade", description: "moved SolarOne rollout to Proposal", time: "5 minutes ago" },
       { id: "act-2", type: "ticket", actor: "Iris Shah", description: "resolved ticket #TCK-1021", time: "21 minutes ago" },
       { id: "act-3", type: "chat", actor: "AI Assistant", description: "answered pricing question for Lauren Pierce", time: "32 minutes ago" }
+    ]
+  },
+  contacts: {
+    summary: { total: 1824, active: 643, newThisWeek: 58, healthScore: 84 },
