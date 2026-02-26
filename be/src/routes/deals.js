@@ -18,3 +18,7 @@ router.get('/', async (_req, res) => {
         createdAt: d.createdAt,
       }))
     );
+  } catch (error) {
+    console.error('Error fetching deals:', error);
+    res.status(500).json({ error: 'Failed to fetch deals' });
+  }
