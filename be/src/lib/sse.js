@@ -20,3 +20,6 @@ export function createSseStream(res, { heartbeatMs = 15000 } = {}) {
 
   const close = () => {
     clearInterval(heartbeat);
+    res.end();
+  };
+
