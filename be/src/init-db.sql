@@ -21,3 +21,6 @@ CREATE TABLE IF NOT EXISTS meeting_links (
   slug VARCHAR(255) UNIQUE NOT NULL,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+-- Create booked_meetings table
+CREATE TABLE IF NOT EXISTS booked_meetings (
