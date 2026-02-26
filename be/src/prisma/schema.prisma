@@ -21,3 +21,7 @@ model Deal {
 model MeetingLink {
   id        Int      @id @default(autoincrement())
   title     String
+  duration  String
+  createdBy String
+  slug      String   @unique
+  createdAt DateTime @default(now())
