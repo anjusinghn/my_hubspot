@@ -20,3 +20,7 @@ router.post("/chat/threads/:id/messages", (req, res, next) => {
     res.status(201).json(payload);
   } catch (error) {
     next(error);
+  }
+});
+
+router.get("/chat/threads/:id/stream", (req, res) => {
