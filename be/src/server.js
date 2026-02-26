@@ -16,3 +16,7 @@ export function createServer() {
   }));
   
   app.use(express.json());
+
+  app.get('/health', (_req, res) => {
+    res.json({ status: 'ok', timestamp: Date.now() });
+  });
