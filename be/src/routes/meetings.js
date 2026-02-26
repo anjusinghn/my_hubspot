@@ -22,3 +22,6 @@ router.get('/links', async (_req, res) => {
     res.status(500).json({ error: 'Failed to fetch meeting links' });
   }
 });
+
+// Create a new meeting link
+router.post('/links', async (req, res) => {
