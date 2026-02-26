@@ -21,3 +21,7 @@ echo ""
 
 # Check if .env.local exists
 if [ ! -f .env.local ]; then
+    echo "⚠️  .env.local not found. Creating template..."
+    cat > .env.local << 'EOF'
+# Database Configuration
+DATABASE_URL="postgresql://username:password@localhost:5432/hubspot_db"
