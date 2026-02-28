@@ -22,3 +22,7 @@ export class DataStore {
     const existingIndex = this.state.contacts.rows.findIndex((item) => item.id === contact.id);
     if (existingIndex >= 0) {
       this.state.contacts.rows[existingIndex] = { ...this.state.contacts.rows[existingIndex], ...contact };
+      return deepClone(this.state.contacts.rows[existingIndex]);
+    }
+
+    const created = { ...contact, id: contact.id || `con-${nanoId()}` };
