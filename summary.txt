@@ -19,3 +19,7 @@
   - Implemented every feature surface from AGENTS.md with live API data: dashboard KPIs, CRM tables/board, scheduler, helpdesk, knowledge, and settings (fe/app/(app)/
   dashboard/DashboardView.jsx:1, fe/app/(app)/crm/contacts/ContactsView.jsx:1, fe/app/(app)/scheduler/SchedulerView.jsx:1, etc.).
   - Overhauled chat to stream messages from the backend, send replies, and request AI suggestions while tracking connection state (fe/app/(app)/chat/ChatView.jsx:1),
+  backed by shared API utilities that fall back to mocks when the service is offline (fe/lib/api.js:1).
+  - Delivered an Express service with health check, CRM/chat/scheduler/helpdesk routes, SSE heartbeat support, and in-memory data store (be/src/server.js:1, be/src/
+  routes/chatRoutes.js:1, be/src/data/store.js:1) ready to swap for Postgres/Redis later.
+
