@@ -22,3 +22,6 @@ router.get('/', async (_req, res) => {
     console.error('Error fetching deals:', error);
     res.status(500).json({ error: 'Failed to fetch deals' });
   }
+});
+
+// Create a new deal

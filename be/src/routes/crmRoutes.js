@@ -22,3 +22,7 @@ const filterContacts = (contacts, { owner, view, search }) => {
         matchesView = row.status.toLowerCase().includes("risk");
         break;
       default:
+        matchesView = true;
+    }
+
+    const matchesSearch = !query
