@@ -25,3 +25,7 @@ router.get('/links', async (_req, res) => {
 
 // Create a new meeting link
 router.post('/links', async (req, res) => {
+  const { title, duration, createdBy } = req.body;
+  const slug = title.toLowerCase().replace(/\s+/g, '-');
+  try {
+    const created = await prisma.meetingLink.create({

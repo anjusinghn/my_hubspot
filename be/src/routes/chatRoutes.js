@@ -24,3 +24,7 @@ router.post("/chat/threads/:id/messages", (req, res, next) => {
 });
 
 router.get("/chat/threads/:id/stream", (req, res) => {
+  const threadId = req.params.id;
+  const stream = createSseStream(res, { heartbeatMs: config.sseHeartbeatMs });
+
+  stream.send("seed", { messages: store.getChatMessages(threadId) });
