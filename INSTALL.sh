@@ -25,3 +25,7 @@ if [ ! -f .env.local ]; then
     cat > .env.local << 'EOF'
 # Database Configuration
 DATABASE_URL="postgresql://username:password@localhost:5432/hubspot_db"
+
+# Better Auth Configuration
+# Generate a random secret with: openssl rand -base64 32
+BETTER_AUTH_SECRET="replace-with-random-32-plus-character-secret"
