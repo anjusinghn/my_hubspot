@@ -26,3 +26,7 @@ export class DataStore {
     }
 
     const created = { ...contact, id: contact.id || `con-${nanoId()}` };
+    this.state.contacts.rows.unshift(created);
+    this.state.contacts.summary.total += 1;
+    return deepClone(created);
+  }
