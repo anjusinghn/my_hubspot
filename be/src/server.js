@@ -20,3 +20,6 @@ export function createServer() {
   app.get('/health', (_req, res) => {
     res.json({ status: 'ok', timestamp: Date.now() });
   });
+
+  // API routes
+  app.use('/api/deals', dealsRouter);
