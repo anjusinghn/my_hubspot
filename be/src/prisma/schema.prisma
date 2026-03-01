@@ -25,3 +25,7 @@ model MeetingLink {
   createdBy String
   slug      String   @unique
   createdAt DateTime @default(now())
+}
+
+model BookedMeeting {
+  id            Int      @id @default(autoincrement())
