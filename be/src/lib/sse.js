@@ -23,3 +23,7 @@ export function createSseStream(res, { heartbeatMs = 15000 } = {}) {
     res.end();
   };
 
+  res.on("close", close);
+  res.on("error", close);
+
+  return { send, close };
