@@ -26,3 +26,7 @@ export const mockData = {
   },
   contacts: {
     summary: { total: 1824, active: 643, newThisWeek: 58, healthScore: 84 },
+    views: ["All", "Active", "Renewals", "Expansion", "Churn risk"],
+    filters: {
+      owners: ["Janet Walters", "Miles Coleman", "Derrick Wade", "Iris Shah"],
+      segments: ["Enterprise", "Mid-market", "Startup"]
