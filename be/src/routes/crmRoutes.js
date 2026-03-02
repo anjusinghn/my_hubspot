@@ -26,3 +26,7 @@ const filterContacts = (contacts, { owner, view, search }) => {
     }
 
     const matchesSearch = !query
+      || row.name.toLowerCase().includes(query)
+      || row.company.toLowerCase().includes(query)
+      || row.email.toLowerCase().includes(query);
+
