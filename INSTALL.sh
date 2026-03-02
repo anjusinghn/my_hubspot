@@ -29,3 +29,6 @@ DATABASE_URL="postgresql://username:password@localhost:5432/hubspot_db"
 # Better Auth Configuration
 # Generate a random secret with: openssl rand -base64 32
 BETTER_AUTH_SECRET="replace-with-random-32-plus-character-secret"
+BETTER_AUTH_URL="http://localhost:3000"
+NEXT_PUBLIC_BETTER_AUTH_URL="http://localhost:3000"
+
