@@ -25,3 +25,7 @@ router.get('/', async (_req, res) => {
 });
 
 // Create a new deal
+router.post('/', async (req, res) => {
+  const { name, amount, stage, owner, closeDate } = req.body;
+  try {
+    const created = await prisma.deal.create({

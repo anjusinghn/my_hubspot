@@ -23,3 +23,7 @@ export function createServer() {
 
   // API routes
   app.use('/api/deals', dealsRouter);
+  app.use('/api/meetings', meetingsRouter);
+  app.use('/api', schedulerRouter);
+
+  return app;
