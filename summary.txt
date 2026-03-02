@@ -23,3 +23,6 @@
   - Delivered an Express service with health check, CRM/chat/scheduler/helpdesk routes, SSE heartbeat support, and in-memory data store (be/src/server.js:1, be/src/
   routes/chatRoutes.js:1, be/src/data/store.js:1) ready to swap for Postgres/Redis later.
 
+  Verification
+
+  - cd fe && npm run lint
