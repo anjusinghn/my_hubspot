@@ -30,3 +30,7 @@ export class DataStore {
     this.state.contacts.summary.total += 1;
     return deepClone(created);
   }
+
+  getDealsBoard() {
+    return deepClone(this.state.deals);
+  }
