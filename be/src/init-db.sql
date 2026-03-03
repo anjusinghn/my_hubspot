@@ -28,3 +28,7 @@ CREATE TABLE IF NOT EXISTS booked_meetings (
   title VARCHAR(255) NOT NULL,
   attendee_name VARCHAR(255) NOT NULL,
   attendee_email VARCHAR(255) NOT NULL,
+  scheduled_date TIMESTAMP NOT NULL,
+  duration VARCHAR(20) NOT NULL,
+  link_used VARCHAR(255),
+  description TEXT,

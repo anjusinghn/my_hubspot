@@ -29,3 +29,7 @@ router.post('/links', async (req, res) => {
   const slug = title.toLowerCase().replace(/\s+/g, '-');
   try {
     const created = await prisma.meetingLink.create({
+      data: { title, duration, createdBy, slug },
+    });
+    const link = {
+      id: created.id,
