@@ -26,3 +26,7 @@
   Verification
 
   - cd fe && npm run lint
+  - Started the Express app on an ephemeral port and exercised shared client calls for /api/dashboard and chat bootstrap via a Node smoke script.
+
+  Next
+
