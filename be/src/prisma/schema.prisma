@@ -29,3 +29,7 @@ model MeetingLink {
 
 model BookedMeeting {
   id            Int      @id @default(autoincrement())
+  title         String
+  attendeeName  String
+  attendeeEmail String
+  scheduledDate DateTime
