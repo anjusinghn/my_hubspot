@@ -27,3 +27,6 @@ export function createSseStream(res, { heartbeatMs = 15000 } = {}) {
   res.on("error", close);
 
   return { send, close };
+}
+
+export default createSseStream;
