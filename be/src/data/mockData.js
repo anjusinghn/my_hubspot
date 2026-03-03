@@ -30,3 +30,7 @@ export const mockData = {
     filters: {
       owners: ["Janet Walters", "Miles Coleman", "Derrick Wade", "Iris Shah"],
       segments: ["Enterprise", "Mid-market", "Startup"]
+    },
+    rows: [
+      {
+        id: "con-1",
