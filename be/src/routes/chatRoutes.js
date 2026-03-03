@@ -28,3 +28,6 @@ router.get("/chat/threads/:id/stream", (req, res) => {
   const stream = createSseStream(res, { heartbeatMs: config.sseHeartbeatMs });
 
   stream.send("seed", { messages: store.getChatMessages(threadId) });
+
+  const interval = setInterval(() => {
+    const simulated = {
