@@ -29,3 +29,7 @@ router.post('/', async (req, res) => {
   const { name, amount, stage, owner, closeDate } = req.body;
   try {
     const created = await prisma.deal.create({
+      data: {
+        name,
+        amount: amount || null,
+        stage: stage || 'new',

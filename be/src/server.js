@@ -27,3 +27,6 @@ export function createServer() {
   app.use('/api', schedulerRouter);
 
   return app;
+}
+
+export default createServer;
