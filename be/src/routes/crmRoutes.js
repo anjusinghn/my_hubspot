@@ -30,3 +30,7 @@ const filterContacts = (contacts, { owner, view, search }) => {
       || row.company.toLowerCase().includes(query)
       || row.email.toLowerCase().includes(query);
 
+    return matchesOwner && matchesView && matchesSearch;
+  });
+};
+
