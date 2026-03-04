@@ -32,3 +32,7 @@ BETTER_AUTH_SECRET="replace-with-random-32-plus-character-secret"
 BETTER_AUTH_URL="http://localhost:3000"
 NEXT_PUBLIC_BETTER_AUTH_URL="http://localhost:3000"
 
+# Google OAuth Credentials
+# Get these from https://console.cloud.google.com/
+GOOGLE_CLIENT_ID="your-client-id.apps.googleusercontent.com"
+GOOGLE_CLIENT_SECRET="your-google-client-secret"
