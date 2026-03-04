@@ -31,3 +31,7 @@ router.get("/chat/threads/:id/stream", (req, res) => {
 
   const interval = setInterval(() => {
     const simulated = {
+      sender: "ai",
+      content: "Simulated assistant insight: summarised latest activity and suggested next step.",
+    };
+    const message = store.addChatMessage(threadId, simulated);
