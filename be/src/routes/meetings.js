@@ -33,3 +33,7 @@ router.post('/links', async (req, res) => {
     });
     const link = {
       id: created.id,
+      name: created.title,
+      duration: created.duration,
+      owner: created.createdBy,
+      slug: created.slug,
