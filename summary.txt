@@ -30,3 +30,6 @@
 
   Next
 
+  1. Wire the Express store to real persistence (Postgres/Redis) and replace the mock seeds with migrations.
+  2. Extend the chat endpoints with WebSocket/SSE authentication beyond shared tokens and record events for audit logs.
+  3. Add automated tests (frontend integration + backend request specs) to protect the new flows before connecting production data.
