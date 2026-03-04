@@ -34,3 +34,7 @@ export const mockData = {
     rows: [
       {
         id: "con-1",
+        name: "Lauren Pierce",
+        title: "Revenue Ops Manager",
+        company: "ACME Robotics",
+        email: "lauren@acmerobotics.com",
