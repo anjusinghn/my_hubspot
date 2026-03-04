@@ -32,3 +32,6 @@ CREATE TABLE IF NOT EXISTS booked_meetings (
   duration VARCHAR(20) NOT NULL,
   link_used VARCHAR(255),
   description TEXT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
