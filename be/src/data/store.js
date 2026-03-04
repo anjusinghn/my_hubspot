@@ -34,3 +34,6 @@ export class DataStore {
   getDealsBoard() {
     return deepClone(this.state.deals);
   }
+
+  moveDeal(dealId, stage) {
+    const board = this.state.deals;
