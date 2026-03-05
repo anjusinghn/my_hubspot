@@ -35,3 +35,7 @@ router.get("/chat/threads/:id/stream", (req, res) => {
       content: "Simulated assistant insight: summarised latest activity and suggested next step.",
     };
     const message = store.addChatMessage(threadId, simulated);
+    stream.send("message", message);
+  }, 30000);
+
+  res.on("close", () => {
