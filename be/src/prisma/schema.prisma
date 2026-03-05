@@ -37,3 +37,6 @@ model BookedMeeting {
   linkUsed      String?
   description   String?
   createdAt     DateTime @default(now())
+}
+
+
