@@ -33,3 +33,7 @@ router.post('/', async (req, res) => {
         name,
         amount: amount || null,
         stage: stage || 'new',
+        owner: owner || null,
+        closeDate: closeDate ? new Date(closeDate) : null,
+      },
+    });

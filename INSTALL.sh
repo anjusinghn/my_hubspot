@@ -36,3 +36,7 @@ NEXT_PUBLIC_BETTER_AUTH_URL="http://localhost:3000"
 # Get these from https://console.cloud.google.com/
 GOOGLE_CLIENT_ID="your-client-id.apps.googleusercontent.com"
 GOOGLE_CLIENT_SECRET="your-google-client-secret"
+EOF
+    echo "📝 Created .env.local template"
+    echo "⚠️  IMPORTANT: Edit fe/.env.local with your actual credentials!"
+    echo ""
