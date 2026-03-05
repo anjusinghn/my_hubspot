@@ -38,3 +38,7 @@ export const mockData = {
         title: "Revenue Ops Manager",
         company: "ACME Robotics",
         email: "lauren@acmerobotics.com",
+        status: "Active",
+        lastSeen: "2 hours ago",
+        owner: "Miles Coleman",
+        score: 92,
