@@ -37,3 +37,7 @@ router.post('/links', async (req, res) => {
       duration: created.duration,
       owner: created.createdBy,
       slug: created.slug,
+      createdAt: created.createdAt,
+      url: `http://localhost:3000/book/${created.slug}`,
+    };
+    res.status(201).json(link);
