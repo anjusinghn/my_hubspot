@@ -37,3 +37,7 @@ router.post('/', async (req, res) => {
         closeDate: closeDate ? new Date(closeDate) : null,
       },
     });
+    res.status(201).json({
+      id: created.id,
+      name: created.name,
+      amount: created.amount ?? '',
