@@ -36,3 +36,7 @@ pnpm-debug.log*
 .env.*
 .envrc
 .env.local
+.env.*.local
+
+# Tooling
+.vercel

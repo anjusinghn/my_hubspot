@@ -37,3 +37,7 @@ export class DataStore {
 
   moveDeal(dealId, stage) {
     const board = this.state.deals;
+    let movedDeal = null;
+
+    board.deals = board.deals.map((deal) => {
+      if (deal.id === dealId) {
