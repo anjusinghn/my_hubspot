@@ -40,3 +40,7 @@ EOF
     echo "📝 Created .env.local template"
     echo "⚠️  IMPORTANT: Edit fe/.env.local with your actual credentials!"
     echo ""
+else
+    echo "✅ .env.local already exists"
+    echo ""
+fi
