@@ -37,3 +37,7 @@ const filterContacts = (contacts, { owner, view, search }) => {
 router.get("/contacts", (req, res) => {
   const contacts = store.getContacts();
   const rows = filterContacts(contacts, {
+    owner: req.query.owner,
+    view: req.query.view,
+    search: req.query.search,
+  });
