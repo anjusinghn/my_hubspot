@@ -35,3 +35,7 @@ CREATE TABLE IF NOT EXISTS booked_meetings (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+-- Create indexes
+CREATE INDEX IF NOT EXISTS idx_deals_stage ON deals(stage);
+CREATE INDEX IF NOT EXISTS idx_deals_owner ON deals(owner);
+CREATE INDEX IF NOT EXISTS idx_deals_created ON deals(created_at);
