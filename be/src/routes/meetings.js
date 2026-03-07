@@ -41,3 +41,7 @@ router.post('/links', async (req, res) => {
       url: `http://localhost:3000/book/${created.slug}`,
     };
     res.status(201).json(link);
+  } catch (error) {
+    console.error('Error creating meeting link:', error);
+    res.status(500).json({ error: 'Failed to create meeting link' });
+  }
