@@ -39,3 +39,7 @@ CREATE TABLE IF NOT EXISTS booked_meetings (
 CREATE INDEX IF NOT EXISTS idx_deals_stage ON deals(stage);
 CREATE INDEX IF NOT EXISTS idx_deals_owner ON deals(owner);
 CREATE INDEX IF NOT EXISTS idx_deals_created ON deals(created_at);
+
+CREATE INDEX IF NOT EXISTS idx_meeting_links_slug ON meeting_links(slug);
+CREATE INDEX IF NOT EXISTS idx_meeting_links_created ON meeting_links(created_at);
+
