@@ -41,3 +41,7 @@ export class DataStore {
 
     board.deals = board.deals.map((deal) => {
       if (deal.id === dealId) {
+        movedDeal = { ...deal, stage };
+        return movedDeal;
+      }
+      return deal;
