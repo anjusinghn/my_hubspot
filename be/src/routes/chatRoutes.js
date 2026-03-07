@@ -39,3 +39,6 @@ router.get("/chat/threads/:id/stream", (req, res) => {
   }, 30000);
 
   res.on("close", () => {
+    clearInterval(interval);
+    stream.close();
+  });

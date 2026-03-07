@@ -42,3 +42,7 @@ export const mockData = {
         lastSeen: "2 hours ago",
         owner: "Miles Coleman",
         score: 92,
+        segments: ["Enterprise", "Expansion"]
+      },
+      {
+        id: "con-2",
