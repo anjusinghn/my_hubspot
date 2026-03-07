@@ -40,3 +40,6 @@ pnpm-debug.log*
 
 # Tooling
 .vercel
+*.tsbuildinfo
+
+# Database dumps and local data
