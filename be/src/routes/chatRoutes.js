@@ -42,3 +42,7 @@ router.get("/chat/threads/:id/stream", (req, res) => {
     clearInterval(interval);
     stream.close();
   });
+});
+
+router.get("/chat/quick-replies", (_req, res) => {
+  res.json({ quickReplies: store.getQuickReplies() });
