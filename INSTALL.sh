@@ -44,3 +44,7 @@ else
     echo "✅ .env.local already exists"
     echo ""
 fi
+
+echo "🗄️  Setting up database..."
+echo "Make sure PostgreSQL is running first!"
+echo ""
