@@ -45,3 +45,7 @@ router.get("/contacts", (req, res) => {
 });
 
 router.post("/contacts", (req, res, next) => {
+  try {
+    const created = store.upsertContact(req.body);
+    res.status(201).json(created);
+  } catch (error) {
