@@ -43,3 +43,6 @@ CREATE INDEX IF NOT EXISTS idx_deals_created ON deals(created_at);
 CREATE INDEX IF NOT EXISTS idx_meeting_links_slug ON meeting_links(slug);
 CREATE INDEX IF NOT EXISTS idx_meeting_links_created ON meeting_links(created_at);
 
+CREATE INDEX IF NOT EXISTS idx_booked_meetings_created ON booked_meetings(created_at);
+CREATE INDEX IF NOT EXISTS idx_booked_meetings_email ON booked_meetings(attendee_email);
+
