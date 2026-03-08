@@ -45,3 +45,7 @@ export class DataStore {
         return movedDeal;
       }
       return deal;
+    });
+
+    if (!movedDeal) {
+      throw new Error(`Deal ${dealId} not found`);
