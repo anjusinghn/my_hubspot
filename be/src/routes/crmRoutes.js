@@ -41,3 +41,7 @@ router.get("/contacts", (req, res) => {
     view: req.query.view,
     search: req.query.search,
   });
+  res.json({ ...contacts, rows });
+});
+
+router.post("/contacts", (req, res, next) => {
