@@ -45,3 +45,6 @@ router.post('/links', async (req, res) => {
     console.error('Error creating meeting link:', error);
     res.status(500).json({ error: 'Failed to create meeting link' });
   }
+});
+
+// Get all booked meetings
