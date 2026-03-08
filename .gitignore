@@ -43,3 +43,7 @@ pnpm-debug.log*
 *.tsbuildinfo
 
 # Database dumps and local data
+*.sqlite
+*.db
+*.sqlite3
+/tmp/
