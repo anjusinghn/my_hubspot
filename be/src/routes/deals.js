@@ -41,3 +41,7 @@ router.post('/', async (req, res) => {
       id: created.id,
       name: created.name,
       amount: created.amount ?? '',
+      stage: created.stage,
+      owner: created.owner ?? '',
+      closeDate: created.closeDate ?? null,
+      createdAt: created.createdAt,
