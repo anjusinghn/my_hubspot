@@ -48,3 +48,6 @@ fi
 echo "🗄️  Setting up database..."
 echo "Make sure PostgreSQL is running first!"
 echo ""
+
+# Prompt for database creation
+read -p "Create database 'hubspot_db'? (y/n) " -n 1 -r

@@ -50,3 +50,7 @@ export const mockData = {
         title: "Head of Support",
         company: "Nova Analytics",
         email: "marta@novaanalytics.io",
+        status: "Onboarding",
+        lastSeen: "1 day ago",
+        owner: "Iris Shah",
+        score: 78,
