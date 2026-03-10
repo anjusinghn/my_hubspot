@@ -46,3 +46,6 @@ router.get("/chat/threads/:id/stream", (req, res) => {
 
 router.get("/chat/quick-replies", (_req, res) => {
   res.json({ quickReplies: store.getQuickReplies() });
+});
+
+export default router;
