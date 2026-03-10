@@ -49,3 +49,7 @@ export class DataStore {
 
     if (!movedDeal) {
       throw new Error(`Deal ${dealId} not found`);
+    }
+
+    return deepClone(movedDeal);
+  }

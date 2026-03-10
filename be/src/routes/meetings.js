@@ -48,3 +48,7 @@ router.post('/links', async (req, res) => {
 });
 
 // Get all booked meetings
+router.get('/booked', async (_req, res) => {
+  try {
+    const rows = await prisma.bookedMeeting.findMany({ orderBy: { createdAt: 'desc' } });
+    const mapped = rows.map((m) => ({
