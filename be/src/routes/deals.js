@@ -45,3 +45,7 @@ router.post('/', async (req, res) => {
       owner: created.owner ?? '',
       closeDate: created.closeDate ?? null,
       createdAt: created.createdAt,
+    });
+  } catch (error) {
+    console.error('Error creating deal:', error);
+    res.status(500).json({ error: 'Failed to create deal' });
