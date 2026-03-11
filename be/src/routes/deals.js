@@ -49,3 +49,6 @@ router.post('/', async (req, res) => {
   } catch (error) {
     console.error('Error creating deal:', error);
     res.status(500).json({ error: 'Failed to create deal' });
+  }
+});
+
