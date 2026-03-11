@@ -51,3 +51,7 @@ echo ""
 
 # Prompt for database creation
 read -p "Create database 'hubspot_db'? (y/n) " -n 1 -r
+echo ""
+if [[ $REPLY =~ ^[Yy]$ ]]; then
+    createdb hubspot_db 2>/dev/null || echo "⚠️  Database might already exist, continuing..."
+    echo "✅ Database ready"
