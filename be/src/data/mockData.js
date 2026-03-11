@@ -54,3 +54,7 @@ export const mockData = {
         lastSeen: "1 day ago",
         owner: "Iris Shah",
         score: 78,
+        segments: ["Mid-market"]
+      },
+      {
+        id: "con-3",
