@@ -53,3 +53,7 @@ export class DataStore {
 
     return deepClone(movedDeal);
   }
+
+  getReports() {
+    return deepClone(this.state.reports);
+  }
