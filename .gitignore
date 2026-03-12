@@ -51,3 +51,6 @@ pnpm-debug.log*
 # Misc large files
 *.zip
 *.tar
+*.tar.gz
+*.tgz
+*.gz
