@@ -58,3 +58,6 @@ export const mockData = {
       },
       {
         id: "con-3",
+        name: "Elliot James",
+        title: "COO",
+        company: "Beacon Logistics",
