@@ -57,3 +57,7 @@ router.get("/deals", (_req, res) => {
   res.json(store.getDealsBoard());
 });
 
+router.patch("/deals/:id", (req, res, next) => {
+  try {
+    const updated = store.moveDeal(req.params.id, req.body.stage);
+    res.json(updated);
