@@ -57,3 +57,7 @@ export class DataStore {
   getReports() {
     return deepClone(this.state.reports);
   }
+
+  getChatThreads() {
+    return deepClone(this.state.chat.threads);
+  }
