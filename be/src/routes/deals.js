@@ -52,3 +52,7 @@ router.post('/', async (req, res) => {
   }
 });
 
+// Update a deal
+router.put('/:id', async (req, res) => {
+  const id = Number.parseInt(req.params.id, 10);
+  const { name, amount, stage, owner, closeDate } = req.body;

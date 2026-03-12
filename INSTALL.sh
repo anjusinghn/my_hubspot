@@ -55,3 +55,7 @@ echo ""
 if [[ $REPLY =~ ^[Yy]$ ]]; then
     createdb hubspot_db 2>/dev/null || echo "⚠️  Database might already exist, continuing..."
     echo "✅ Database ready"
+fi
+
+echo ""
+echo "🔄 Running Prisma migrations..."
