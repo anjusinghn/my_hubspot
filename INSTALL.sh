@@ -59,3 +59,7 @@ fi
 
 echo ""
 echo "🔄 Running Prisma migrations..."
+npx prisma migrate dev --name init
+
+echo ""
+echo "🎨 Generating Prisma Client..."
