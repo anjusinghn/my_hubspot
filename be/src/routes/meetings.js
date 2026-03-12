@@ -56,3 +56,7 @@ router.get('/booked', async (_req, res) => {
       title: m.title,
       attendee: m.attendeeName,
       email: m.attendeeEmail,
+      scheduledAt: m.scheduledDate,
+      duration: m.duration,
+      linkUsed: m.linkUsed ?? '',
+      description: m.description ?? '',
