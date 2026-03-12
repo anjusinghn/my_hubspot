@@ -53,3 +53,7 @@ router.post("/contacts", (req, res, next) => {
   }
 });
 
+router.get("/deals", (_req, res) => {
+  res.json(store.getDealsBoard());
+});
+
