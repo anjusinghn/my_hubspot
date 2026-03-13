@@ -61,3 +61,7 @@ router.patch("/deals/:id", (req, res, next) => {
   try {
     const updated = store.moveDeal(req.params.id, req.body.stage);
     res.json(updated);
+  } catch (error) {
+    error.status = 404;
+    next(error);
+  }
