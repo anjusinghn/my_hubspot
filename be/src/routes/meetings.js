@@ -60,3 +60,7 @@ router.get('/booked', async (_req, res) => {
       duration: m.duration,
       linkUsed: m.linkUsed ?? '',
       description: m.description ?? '',
+      createdAt: m.createdAt,
+    }));
+    res.json(mapped);
+  } catch (error) {
