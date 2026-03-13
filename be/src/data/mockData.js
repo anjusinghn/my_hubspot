@@ -61,3 +61,7 @@ export const mockData = {
         name: "Elliot James",
         title: "COO",
         company: "Beacon Logistics",
+        email: "elliot@beaconlogistics.com",
+        status: "Renewal",
+        lastSeen: "35 minutes ago",
+        owner: "Janet Walters",
