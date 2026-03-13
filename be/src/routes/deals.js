@@ -60,3 +60,7 @@ router.put('/:id', async (req, res) => {
     const updated = await prisma.deal.update({
       where: { id },
       data: {
+        name,
+        amount: amount ?? null,
+        stage,
+        owner: owner ?? null,
