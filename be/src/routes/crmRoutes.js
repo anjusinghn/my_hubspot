@@ -65,3 +65,7 @@ router.patch("/deals/:id", (req, res, next) => {
     error.status = 404;
     next(error);
   }
+});
+
+router.get("/reports", (_req, res) => {
+  res.json(store.getReports());
