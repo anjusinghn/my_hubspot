@@ -66,3 +66,7 @@ echo "🎨 Generating Prisma Client..."
 npx prisma generate
 
 echo ""
+echo "✅ Setup complete!"
+echo ""
+echo "📋 Next steps:"
+echo "1. Edit fe/.env.local with your credentials"
