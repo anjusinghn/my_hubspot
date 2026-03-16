@@ -65,3 +65,7 @@ export const mockData = {
         status: "Renewal",
         lastSeen: "35 minutes ago",
         owner: "Janet Walters",
+        score: 66,
+        segments: ["Enterprise", "Renewal"]
+      },
+      {

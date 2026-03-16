@@ -63,3 +63,6 @@ npx prisma migrate dev --name init
 
 echo ""
 echo "🎨 Generating Prisma Client..."
+npx prisma generate
+
+echo ""
