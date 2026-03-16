@@ -69,3 +69,7 @@ export const mockData = {
         segments: ["Enterprise", "Renewal"]
       },
       {
+        id: "con-4",
+        name: "Priya Nadeem",
+        title: "Support Lead",
+        company: "Blue Ridge Energy",
