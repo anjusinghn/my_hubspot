@@ -69,3 +69,6 @@ router.patch("/deals/:id", (req, res, next) => {
 
 router.get("/reports", (_req, res) => {
   res.json(store.getReports());
+});
+
+export default router;
