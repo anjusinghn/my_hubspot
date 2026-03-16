@@ -68,3 +68,7 @@ router.get('/booked', async (_req, res) => {
     res.status(500).json({ error: 'Failed to fetch booked meetings' });
   }
 });
+
+// Book a meeting
+router.post('/book', async (req, res) => {
+  const { title, attendeeName, attendeeEmail, scheduledDate, duration, linkUsed, description } = req.body;

@@ -69,3 +69,6 @@ export class DataStore {
   addChatMessage(threadId, message) {
     if (!this.state.chat.messages[threadId]) {
       this.state.chat.messages[threadId] = [];
+    }
+
+    const payload = {
