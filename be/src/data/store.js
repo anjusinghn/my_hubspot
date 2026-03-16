@@ -65,3 +65,7 @@ export class DataStore {
   getChatMessages(threadId) {
     return deepClone(this.state.chat.messages[threadId] || []);
   }
+
+  addChatMessage(threadId, message) {
+    if (!this.state.chat.messages[threadId]) {
+      this.state.chat.messages[threadId] = [];
