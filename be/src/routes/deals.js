@@ -64,3 +64,7 @@ router.put('/:id', async (req, res) => {
         amount: amount ?? null,
         stage,
         owner: owner ?? null,
+        closeDate: closeDate ? new Date(closeDate) : null,
+      },
+    });
+    res.json({
