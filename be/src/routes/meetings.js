@@ -64,3 +64,7 @@ router.get('/booked', async (_req, res) => {
     }));
     res.json(mapped);
   } catch (error) {
+    console.error('Error fetching booked meetings:', error);
+    res.status(500).json({ error: 'Failed to fetch booked meetings' });
+  }
+});
