@@ -73,3 +73,7 @@ export const mockData = {
         name: "Priya Nadeem",
         title: "Support Lead",
         company: "Blue Ridge Energy",
+        email: "priya@blueridge.energy",
+        status: "Churn risk",
+        lastSeen: "4 days ago",
+        owner: "Derrick Wade",
