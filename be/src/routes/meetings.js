@@ -72,3 +72,6 @@ router.get('/booked', async (_req, res) => {
 // Book a meeting
 router.post('/book', async (req, res) => {
   const { title, attendeeName, attendeeEmail, scheduledDate, duration, linkUsed, description } = req.body;
+  try {
+    const created = await prisma.bookedMeeting.create({
+      data: {
