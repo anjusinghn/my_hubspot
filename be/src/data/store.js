@@ -72,3 +72,7 @@ export class DataStore {
     }
 
     const payload = {
+      id: message.id || `msg-${nanoId()}`,
+      sender: message.sender || "agent",
+      content: message.content,
+      timestamp: message.timestamp || new Date().toISOString(),

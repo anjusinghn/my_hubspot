@@ -72,3 +72,7 @@ router.put('/:id', async (req, res) => {
       name: updated.name,
       amount: updated.amount ?? '',
       stage: updated.stage,
+      owner: updated.owner ?? '',
+      closeDate: updated.closeDate ?? null,
+      createdAt: updated.createdAt,
+    });
