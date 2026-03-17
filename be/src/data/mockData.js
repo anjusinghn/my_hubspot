@@ -77,3 +77,7 @@ export const mockData = {
         status: "Churn risk",
         lastSeen: "4 days ago",
         owner: "Derrick Wade",
+        score: 48,
+        segments: ["Enterprise", "At risk"]
+      }
+    ]
