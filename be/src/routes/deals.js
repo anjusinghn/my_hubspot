@@ -68,3 +68,7 @@ router.put('/:id', async (req, res) => {
       },
     });
     res.json({
+      id: updated.id,
+      name: updated.name,
+      amount: updated.amount ?? '',
+      stage: updated.stage,
