@@ -85,3 +85,7 @@ export const mockData = {
   deals: {
     columns: [
       { id: "new", title: "New", target: "$240k" },
+      { id: "qualified", title: "Qualified", target: "$380k" },
+      { id: "proposal", title: "Proposal", target: "$510k" },
+      { id: "won", title: "Won", target: "$1.1M" },
+      { id: "lost", title: "Lost", target: "$190k" }
