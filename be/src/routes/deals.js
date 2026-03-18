@@ -79,3 +79,7 @@ router.put('/:id', async (req, res) => {
   } catch (error) {
     if (error.code === 'P2025') {
       return res.status(404).json({ error: 'Deal not found' });
+    }
+    console.error('Error updating deal:', error);
+    res.status(500).json({ error: 'Failed to update deal' });
+  }

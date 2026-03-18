@@ -80,3 +80,7 @@ export class DataStore {
 
     this.state.chat.messages[threadId].push(payload);
 
+    const threadIndex = this.state.chat.threads.findIndex((thread) => thread.id === threadId);
+    if (threadIndex >= 0) {
+      this.state.chat.threads[threadIndex] = {
+        ...this.state.chat.threads[threadIndex],
