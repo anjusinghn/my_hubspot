@@ -83,3 +83,7 @@ router.post('/book', async (req, res) => {
         linkUsed: linkUsed || null,
         description: description || null,
       },
+    });
+    res.status(201).json({
+      id: created.id,
+      title: created.title,

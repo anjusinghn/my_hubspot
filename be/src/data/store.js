@@ -84,3 +84,7 @@ export class DataStore {
     if (threadIndex >= 0) {
       this.state.chat.threads[threadIndex] = {
         ...this.state.chat.threads[threadIndex],
+        snippet: payload.content.slice(0, 120),
+        updatedAt: "just now",
+        unread: 0,
+        status: payload.sender === "contact" ? "Awaiting reply" : "Replied",
