@@ -76,3 +76,7 @@ export class DataStore {
       sender: message.sender || "agent",
       content: message.content,
       timestamp: message.timestamp || new Date().toISOString(),
+    };
+
+    this.state.chat.messages[threadId].push(payload);
+
