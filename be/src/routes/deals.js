@@ -76,3 +76,6 @@ router.put('/:id', async (req, res) => {
       closeDate: updated.closeDate ?? null,
       createdAt: updated.createdAt,
     });
+  } catch (error) {
+    if (error.code === 'P2025') {
+      return res.status(404).json({ error: 'Deal not found' });
