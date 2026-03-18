@@ -81,3 +81,7 @@ export const mockData = {
         segments: ["Enterprise", "At risk"]
       }
     ]
+  },
+  deals: {
+    columns: [
+      { id: "new", title: "New", target: "$240k" },
