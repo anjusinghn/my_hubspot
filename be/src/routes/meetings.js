@@ -79,3 +79,7 @@ router.post('/book', async (req, res) => {
         attendeeName,
         attendeeEmail,
         scheduledDate: new Date(scheduledDate),
+        duration,
+        linkUsed: linkUsed || null,
+        description: description || null,
+      },
