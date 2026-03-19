@@ -89,3 +89,7 @@ export const mockData = {
       { id: "proposal", title: "Proposal", target: "$510k" },
       { id: "won", title: "Won", target: "$1.1M" },
       { id: "lost", title: "Lost", target: "$190k" }
+    ],
+    deals: [
+      {
+        id: "deal-1",
