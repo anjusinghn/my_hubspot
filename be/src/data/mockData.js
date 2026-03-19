@@ -93,3 +93,7 @@ export const mockData = {
     deals: [
       {
         id: "deal-1",
+        name: "SolarOne rollout",
+        company: "SolarOne",
+        amount: "$120k",
+        owner: "Janet Walters",
