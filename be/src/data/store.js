@@ -92,3 +92,7 @@ export class DataStore {
     }
 
     return deepClone(payload);
+  }
+
+  getQuickReplies() {
+    return deepClone(this.state.chat.quickReplies);
