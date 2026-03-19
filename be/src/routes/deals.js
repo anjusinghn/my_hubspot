@@ -87,3 +87,7 @@ router.put('/:id', async (req, res) => {
 
 // Delete a deal
 router.delete('/:id', async (req, res) => {
+  const id = Number.parseInt(req.params.id, 10);
+  try {
+    await prisma.deal.delete({ where: { id } });
+    res.json({ message: 'Deal deleted successfully' });
