@@ -88,3 +88,7 @@ export class DataStore {
         updatedAt: "just now",
         unread: 0,
         status: payload.sender === "contact" ? "Awaiting reply" : "Replied",
+      };
+    }
+
+    return deepClone(payload);
