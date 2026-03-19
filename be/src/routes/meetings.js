@@ -87,3 +87,7 @@ router.post('/book', async (req, res) => {
     res.status(201).json({
       id: created.id,
       title: created.title,
+      attendee: created.attendeeName,
+      email: created.attendeeEmail,
+      scheduledAt: created.scheduledDate,
+      duration: created.duration,
