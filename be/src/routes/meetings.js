@@ -91,3 +91,7 @@ router.post('/book', async (req, res) => {
       email: created.attendeeEmail,
       scheduledAt: created.scheduledDate,
       duration: created.duration,
+      linkUsed: created.linkUsed ?? '',
+      description: created.description ?? '',
+      createdAt: created.createdAt,
+    });
