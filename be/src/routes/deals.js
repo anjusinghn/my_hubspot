@@ -83,3 +83,7 @@ router.put('/:id', async (req, res) => {
     console.error('Error updating deal:', error);
     res.status(500).json({ error: 'Failed to update deal' });
   }
+});
+
+// Delete a deal
+router.delete('/:id', async (req, res) => {
