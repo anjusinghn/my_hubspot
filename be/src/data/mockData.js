@@ -97,3 +97,7 @@ export const mockData = {
         company: "SolarOne",
         amount: "$120k",
         owner: "Janet Walters",
+        stage: "qualified",
+        age: "12 days",
+        probability: 0.45
+      },
