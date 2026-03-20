@@ -91,3 +91,7 @@ router.delete('/:id', async (req, res) => {
   try {
     await prisma.deal.delete({ where: { id } });
     res.json({ message: 'Deal deleted successfully' });
+  } catch (error) {
+    if (error.code === 'P2025') {
+      return res.status(404).json({ error: 'Deal not found' });
+    }
