@@ -96,3 +96,7 @@ export class DataStore {
 
   getQuickReplies() {
     return deepClone(this.state.chat.quickReplies);
+  }
+
+  getScheduler() {
+    return deepClone(this.state.scheduler);
