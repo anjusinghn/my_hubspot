@@ -95,3 +95,6 @@ router.post('/book', async (req, res) => {
       description: created.description ?? '',
       createdAt: created.createdAt,
     });
+  } catch (error) {
+    console.error('Error booking meeting:', error);
+    res.status(500).json({ error: 'Failed to book meeting' });
