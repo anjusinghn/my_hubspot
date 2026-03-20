@@ -101,3 +101,7 @@ export const mockData = {
         age: "12 days",
         probability: 0.45
       },
+      {
+        id: "deal-2",
+        name: "Aether platform expansion",
+        company: "Aether Labs",
