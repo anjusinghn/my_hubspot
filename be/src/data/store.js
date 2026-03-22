@@ -104,3 +104,6 @@ export class DataStore {
 
   updateAvailability(nextAvailability) {
     this.state.scheduler.availability = deepClone(nextAvailability);
+    return this.getScheduler();
+  }
+
