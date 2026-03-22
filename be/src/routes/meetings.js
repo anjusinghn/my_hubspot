@@ -102,3 +102,7 @@ router.post('/book', async (req, res) => {
 });
 
 // Get availability (this would normally be more complex)
+router.get('/availability', async (req, res) => {
+  // For now, return default availability
+  // In production, this would query user availability settings
+  res.json({
