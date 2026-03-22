@@ -109,3 +109,7 @@ export const mockData = {
         owner: "Miles Coleman",
         stage: "proposal",
         age: "8 days",
+        probability: 0.6
+      },
+      {
+        id: "deal-3",
