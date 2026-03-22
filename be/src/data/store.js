@@ -100,3 +100,7 @@ export class DataStore {
 
   getScheduler() {
     return deepClone(this.state.scheduler);
+  }
+
+  updateAvailability(nextAvailability) {
+    this.state.scheduler.availability = deepClone(nextAvailability);
