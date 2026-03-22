@@ -98,3 +98,7 @@ router.post('/book', async (req, res) => {
   } catch (error) {
     console.error('Error booking meeting:', error);
     res.status(500).json({ error: 'Failed to book meeting' });
+  }
+});
+
+// Get availability (this would normally be more complex)
