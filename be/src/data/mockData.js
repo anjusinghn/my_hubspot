@@ -105,3 +105,7 @@ export const mockData = {
         id: "deal-2",
         name: "Aether platform expansion",
         company: "Aether Labs",
+        amount: "$210k",
+        owner: "Miles Coleman",
+        stage: "proposal",
+        age: "8 days",
