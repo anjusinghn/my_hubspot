@@ -111,3 +111,7 @@ export class DataStore {
     return deepClone(this.state.helpdesk);
   }
 
+  getKnowledge() {
+    return deepClone(this.state.knowledge);
+  }
+
