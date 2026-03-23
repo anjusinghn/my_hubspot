@@ -113,3 +113,7 @@ export const mockData = {
       },
       {
         id: "deal-3",
+        name: "Nova Analytics renewal",
+        company: "Nova Analytics",
+        amount: "$320k",
+        owner: "Iris Shah",
