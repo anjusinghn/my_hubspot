@@ -107,3 +107,7 @@ export class DataStore {
     return this.getScheduler();
   }
 
+  getHelpdesk() {
+    return deepClone(this.state.helpdesk);
+  }
+
