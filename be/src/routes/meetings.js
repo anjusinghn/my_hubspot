@@ -106,3 +106,7 @@ router.get('/availability', async (req, res) => {
   // For now, return default availability
   // In production, this would query user availability settings
   res.json({
+    timezone: "America/New_York",
+    availability: [
+      { day: "Monday", enabled: true, slots: [{ start: "09:00", end: "17:00" }] },
+      { day: "Tuesday", enabled: true, slots: [{ start: "09:00", end: "17:00" }] },
