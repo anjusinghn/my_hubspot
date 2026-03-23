@@ -117,3 +117,6 @@ export const mockData = {
         company: "Nova Analytics",
         amount: "$320k",
         owner: "Iris Shah",
+        stage: "proposal",
+        age: "4 days",
+        probability: 0.68
