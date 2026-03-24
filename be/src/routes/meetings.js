@@ -118,3 +118,6 @@ router.get('/availability', async (req, res) => {
     ]
   });
 });
+
+export default router;
+
