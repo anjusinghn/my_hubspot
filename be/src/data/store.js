@@ -123,3 +123,7 @@ export class DataStore {
         ...article,
       };
       return deepClone(this.state.knowledge.articles[existingIndex]);
+    }
+
+    const created = {
+      id: article.id || `KB-${nanoId()}`,
