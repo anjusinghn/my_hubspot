@@ -114,3 +114,7 @@ router.get('/availability', async (req, res) => {
       { day: "Thursday", enabled: true, slots: [{ start: "09:00", end: "17:00" }] },
       { day: "Friday", enabled: true, slots: [{ start: "09:00", end: "17:00" }] },
       { day: "Saturday", enabled: false, slots: [] },
+      { day: "Sunday", enabled: false, slots: [] },
+    ]
+  });
+});
