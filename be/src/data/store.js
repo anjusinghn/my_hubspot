@@ -127,3 +127,7 @@ export class DataStore {
 
     const created = {
       id: article.id || `KB-${nanoId()}`,
+      status: "Draft",
+      updatedAt: new Date().toLocaleString("en-US", { month: "short", day: "numeric", year: "numeric" }),
+      ...article,
+    };
