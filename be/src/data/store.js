@@ -119,3 +119,7 @@ export class DataStore {
     const existingIndex = this.state.knowledge.articles.findIndex((item) => item.id === article.id);
     if (existingIndex >= 0) {
       this.state.knowledge.articles[existingIndex] = {
+        ...this.state.knowledge.articles[existingIndex],
+        ...article,
+      };
+      return deepClone(this.state.knowledge.articles[existingIndex]);
