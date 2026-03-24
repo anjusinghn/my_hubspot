@@ -124,3 +124,7 @@ export const mockData = {
       {
         id: "deal-4",
         name: "Beacon logistics onboarding",
+        company: "Beacon Logistics",
+        amount: "$75k",
+        owner: "Derrick Wade",
+        stage: "new",
