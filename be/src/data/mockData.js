@@ -120,3 +120,7 @@ export const mockData = {
         stage: "proposal",
         age: "4 days",
         probability: 0.68
+      },
+      {
+        id: "deal-4",
+        name: "Beacon logistics onboarding",
