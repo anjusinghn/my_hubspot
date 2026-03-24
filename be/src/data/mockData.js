@@ -128,3 +128,7 @@ export const mockData = {
         amount: "$75k",
         owner: "Derrick Wade",
         stage: "new",
+        age: "2 days",
+        probability: 0.25
+      },
+      {
