@@ -132,3 +132,7 @@ export const mockData = {
         probability: 0.25
       },
       {
+        id: "deal-5",
+        name: "ACME robotics renewal",
+        company: "ACME Robotics",
+        amount: "$410k",

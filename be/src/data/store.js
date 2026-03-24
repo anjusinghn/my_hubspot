@@ -131,3 +131,7 @@ export class DataStore {
       updatedAt: new Date().toLocaleString("en-US", { month: "short", day: "numeric", year: "numeric" }),
       ...article,
     };
+
+    this.state.knowledge.articles.unshift(created);
+    return deepClone(created);
+  }
