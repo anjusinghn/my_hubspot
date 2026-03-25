@@ -148,3 +148,7 @@ export const mockData = {
       { id: "velocity", title: "Pipeline velocity", current: "28 days", prev: "34 days", delta: "+6", unit: "days faster" },
       { id: "conversion", title: "Stage conversion", current: "32%", prev: "27%", delta: "+5", unit: "pt" },
       { id: "expansion", title: "Expansion ARR", current: "$620k", prev: "$480k", delta: "+29", unit: "%" }
+    ],
+    table: [
+      { id: "report-1", name: "Enterprise pipeline coverage", frequency: "Weekly", owner: "RevOps", viewers: 24 },
+      { id: "report-2", name: "Renewal risk heatmap", frequency: "Daily", owner: "Customer Success", viewers: 31 },
