@@ -152,3 +152,7 @@ export const mockData = {
     table: [
       { id: "report-1", name: "Enterprise pipeline coverage", frequency: "Weekly", owner: "RevOps", viewers: 24 },
       { id: "report-2", name: "Renewal risk heatmap", frequency: "Daily", owner: "Customer Success", viewers: 31 },
+      { id: "report-3", name: "Support deflection by AI", frequency: "Weekly", owner: "Support Ops", viewers: 18 }
+    ]
+  },
+  chat: {
