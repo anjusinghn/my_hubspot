@@ -139,3 +139,6 @@ export class DataStore {
   getSettings() {
     return deepClone(this.state.settings);
   }
+}
+
+export const store = new DataStore();
