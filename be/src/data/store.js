@@ -135,3 +135,7 @@ export class DataStore {
     this.state.knowledge.articles.unshift(created);
     return deepClone(created);
   }
+
+  getSettings() {
+    return deepClone(this.state.settings);
+  }
