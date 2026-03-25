@@ -140,3 +140,7 @@ export const mockData = {
         stage: "won",
         age: "45 days",
         probability: 1
+      }
+    ]
+  },
+  reports: {
