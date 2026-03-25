@@ -156,3 +156,11 @@ export const mockData = {
     ]
   },
   chat: {
+    threads: [
+      {
+        id: "chat-17",
+        contact: "Lauren Pierce",
+        channel: "Website",
+        updatedAt: "3m ago",
+        snippet: "Let me pull your usage report…",
+        unread: 2,
