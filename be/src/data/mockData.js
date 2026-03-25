@@ -136,3 +136,7 @@ export const mockData = {
         name: "ACME robotics renewal",
         company: "ACME Robotics",
         amount: "$410k",
+        owner: "Janet Walters",
+        stage: "won",
+        age: "45 days",
+        probability: 1
