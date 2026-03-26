@@ -168,3 +168,7 @@ export const mockData = {
         priority: "High",
         assignedTo: "Miles Coleman"
       },
+      {
+        id: "chat-21",
+        contact: "ACME Robotics",
+        channel: "WhatsApp",
