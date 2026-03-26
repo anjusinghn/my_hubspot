@@ -183,3 +183,7 @@ export const mockData = {
         id: "chat-22",
         contact: "Nova Analytics",
         channel: "Messenger",
+        updatedAt: "24m ago",
+        snippet: "Great, I'll share the deck",
+        unread: 0,
+        status: "Closed",
