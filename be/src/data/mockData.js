@@ -164,3 +164,7 @@ export const mockData = {
         updatedAt: "3m ago",
         snippet: "Let me pull your usage report…",
         unread: 2,
+        status: "Awaiting reply",
+        priority: "High",
+        assignedTo: "Miles Coleman"
+      },
