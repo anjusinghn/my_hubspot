@@ -176,3 +176,6 @@ export const mockData = {
         snippet: "AI escalated: human follow-up needed",
         unread: 0,
         status: "Operator",
+        priority: "Standard",
+        assignedTo: "Iris Shah"
+      },
