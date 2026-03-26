@@ -187,3 +187,7 @@ export const mockData = {
         snippet: "Great, I'll share the deck",
         unread: 0,
         status: "Closed",
+        priority: "Low",
+        assignedTo: "AI"
+      }
+    ],
