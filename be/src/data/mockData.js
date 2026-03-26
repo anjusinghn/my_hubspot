@@ -191,3 +191,7 @@ export const mockData = {
         assignedTo: "AI"
       }
     ],
+    messages: {
+      "chat-17": [
+        { id: "m1", sender: "contact", content: "Our executive demo is tomorrow, can we accelerate onboarding?", timestamp: "2024-11-21T14:04:00Z" },
+        { id: "m2", sender: "ai", content: "Absolutely! Let me summarise the pending steps and assign the right agent.", timestamp: "2024-11-21T14:05:00Z" },
