@@ -179,3 +179,7 @@ export const mockData = {
         priority: "Standard",
         assignedTo: "Iris Shah"
       },
+      {
+        id: "chat-22",
+        contact: "Nova Analytics",
+        channel: "Messenger",
