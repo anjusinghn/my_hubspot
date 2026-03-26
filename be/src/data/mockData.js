@@ -172,3 +172,7 @@ export const mockData = {
         id: "chat-21",
         contact: "ACME Robotics",
         channel: "WhatsApp",
+        updatedAt: "12m ago",
+        snippet: "AI escalated: human follow-up needed",
+        unread: 0,
+        status: "Operator",
