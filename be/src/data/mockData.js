@@ -203,3 +203,7 @@ export const mockData = {
       ]
     },
     quickReplies: [
+      "Thanks for reaching out! I'm looking into this now.",
+      "Would you like me to loop in your account manager?",
+      "Here's a summary of the plan for this rollout…"
+    ]
