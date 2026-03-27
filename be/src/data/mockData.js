@@ -207,3 +207,7 @@ export const mockData = {
       "Would you like me to loop in your account manager?",
       "Here's a summary of the plan for this rollout…"
     ]
+  },
+  scheduler: {
+    timezone: "America/New_York",
+    availability: [
