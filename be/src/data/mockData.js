@@ -215,3 +215,7 @@ export const mockData = {
       { day: "Tuesday", slots: [ { start: "10:00", end: "16:00" } ] },
       { day: "Wednesday", slots: [ { start: "09:30", end: "12:30" }, { start: "13:30", end: "17:00" } ] }
     ],
+    bookingLinks: [
+      { id: "book-1", name: "15 minute intro", owner: "Sales team", url: "https://agentshub.com/book/intro", roundRobin: true },
+      { id: "book-2", name: "Enterprise deep dive", owner: "Derrick Wade", url: "https://agentshub.com/book/enterprise", roundRobin: false }
+    ],
