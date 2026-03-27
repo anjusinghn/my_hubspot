@@ -195,3 +195,11 @@ export const mockData = {
       "chat-17": [
         { id: "m1", sender: "contact", content: "Our executive demo is tomorrow, can we accelerate onboarding?", timestamp: "2024-11-21T14:04:00Z" },
         { id: "m2", sender: "ai", content: "Absolutely! Let me summarise the pending steps and assign the right agent.", timestamp: "2024-11-21T14:05:00Z" },
+        { id: "m3", sender: "agent", content: "Jumping in now — confirming data import status in the next five minutes.", timestamp: "2024-11-21T14:06:00Z" }
+      ],
+      "chat-21": [
+        { id: "m4", sender: "contact", content: "Need to confirm webhook retries — seeing 500s", timestamp: "2024-11-21T13:41:00Z" },
+        { id: "m5", sender: "ai", content: "I've raised the retry window and alerted your account owner.", timestamp: "2024-11-21T13:43:00Z" }
+      ]
+    },
+    quickReplies: [
