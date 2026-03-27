@@ -219,3 +219,7 @@ export const mockData = {
       { id: "book-1", name: "15 minute intro", owner: "Sales team", url: "https://agentshub.com/book/intro", roundRobin: true },
       { id: "book-2", name: "Enterprise deep dive", owner: "Derrick Wade", url: "https://agentshub.com/book/enterprise", roundRobin: false }
     ],
+    status: { calendar: "Connected", lastSync: "18 minutes ago", upcomingSync: "in 12 minutes" }
+  },
+  helpdesk: {
+    filters: {
