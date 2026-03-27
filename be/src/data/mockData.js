@@ -211,3 +211,7 @@ export const mockData = {
   scheduler: {
     timezone: "America/New_York",
     availability: [
+      { day: "Monday", slots: [ { start: "09:00", end: "12:00" }, { start: "14:00", end: "17:30" } ] },
+      { day: "Tuesday", slots: [ { start: "10:00", end: "16:00" } ] },
+      { day: "Wednesday", slots: [ { start: "09:30", end: "12:30" }, { start: "13:30", end: "17:00" } ] }
+    ],
