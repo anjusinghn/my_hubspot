@@ -258,3 +258,11 @@ export const mockData = {
         owner: "AI"
       }
     ],
+    knowledgeSuggestions: [
+      { id: "KB-201", title: "How to reconnect the data bridge", category: "Integrations", rating: 4.7 },
+      { id: "KB-202", title: "Resolving billing export discrepancies", category: "Billing", rating: 4.5 }
+    ]
+  },
+  knowledge: {
+    articles: [
+      { id: "KB-201", title: "How to reconnect the data bridge", status: "Published", category: "Integrations", updatedAt: "Nov 19, 2024", owner: "Support Ops" },
