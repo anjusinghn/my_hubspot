@@ -231,3 +231,7 @@ export const mockData = {
         id: "TCK-1043",
         subject: "SLA breach: integrations down",
         requester: "Lauren Pierce",
+        status: "Escalated",
+        priority: "Urgent",
+        slaDue: "4m",
+        channel: "Email",
