@@ -223,3 +223,11 @@ export const mockData = {
   },
   helpdesk: {
     filters: {
+      priorities: ["Urgent", "High", "Medium", "Low"],
+      statuses: ["New", "In progress", "Awaiting customer", "Escalated"]
+    },
+    tickets: [
+      {
+        id: "TCK-1043",
+        subject: "SLA breach: integrations down",
+        requester: "Lauren Pierce",
