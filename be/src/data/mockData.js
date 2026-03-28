@@ -246,3 +246,7 @@ export const mockData = {
         slaDue: "1h 12m",
         channel: "Chat",
         owner: "Iris Shah"
+      },
+      {
+        id: "TCK-1045",
+        subject: "Need sandbox refresh",
