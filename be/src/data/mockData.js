@@ -242,3 +242,7 @@ export const mockData = {
         subject: "Billing export mismatch",
         requester: "Nova Analytics",
         status: "In progress",
+        priority: "High",
+        slaDue: "1h 12m",
+        channel: "Chat",
+        owner: "Iris Shah"
