@@ -235,3 +235,6 @@ export const mockData = {
         priority: "Urgent",
         slaDue: "4m",
         channel: "Email",
+        owner: "Miles Coleman"
+      },
+      {
