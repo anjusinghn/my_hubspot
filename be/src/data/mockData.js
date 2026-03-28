@@ -250,3 +250,7 @@ export const mockData = {
       {
         id: "TCK-1045",
         subject: "Need sandbox refresh",
+        requester: "Blue Ridge Energy",
+        status: "Awaiting customer",
+        priority: "Medium",
+        slaDue: "6h",
