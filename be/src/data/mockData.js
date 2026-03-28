@@ -254,3 +254,7 @@ export const mockData = {
         status: "Awaiting customer",
         priority: "Medium",
         slaDue: "6h",
+        channel: "Email",
+        owner: "AI"
+      }
+    ],
