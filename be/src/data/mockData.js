@@ -266,3 +266,7 @@ export const mockData = {
   knowledge: {
     articles: [
       { id: "KB-201", title: "How to reconnect the data bridge", status: "Published", category: "Integrations", updatedAt: "Nov 19, 2024", owner: "Support Ops" },
+      { id: "KB-202", title: "Resolving billing export discrepancies", status: "In review", category: "Billing", updatedAt: "Nov 20, 2024", owner: "Finance Ops" },
+      { id: "KB-203", title: "Automated SLA alerts", status: "Draft", category: "Helpdesk", updatedAt: "Nov 18, 2024", owner: "Support Ops" }
+    ],
+    editor: {
