@@ -290,3 +290,10 @@ export const mockData = {
       { id: "integration-hubspot", name: "HubSpot", status: "Disconnected", lastSync: "5 days ago" }
     ],
     apiKeys: [
+      { id: "key-1", label: "Production API", createdAt: "Oct 8, 2024", lastUsed: "8 minutes ago", scopes: ["crm.read", "chat.write"] },
+      { id: "key-2", label: "Preview environment", createdAt: "Nov 2, 2024", lastUsed: "1 hour ago", scopes: ["scheduler.full"] }
+    ]
+  }
+};
+
+export default mockData;
