@@ -274,3 +274,7 @@ export const mockData = {
       defaultStatus: "Draft",
       guidelines: [
         "Lead with the outcome customers are chasing.",
+        "Include step-by-step instructions with screenshots.",
+        "List escalation paths if automation fails."
+      ]
+    }
