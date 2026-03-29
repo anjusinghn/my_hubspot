@@ -278,3 +278,7 @@ export const mockData = {
         "List escalation paths if automation fails."
       ]
     }
+  },
+  settings: {
+    teams: [
+      { id: "team-revops", name: "Revenue Operations", members: 12, modules: ["CRM", "Deals", "Scheduler"] },
