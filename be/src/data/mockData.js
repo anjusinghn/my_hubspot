@@ -286,3 +286,7 @@ export const mockData = {
     ],
     integrations: [
       { id: "integration-google", name: "Google Workspace", status: "Connected", lastSync: "18 minutes ago" },
+      { id: "integration-slack", name: "Slack", status: "Connected", lastSync: "2 minutes ago" },
+      { id: "integration-hubspot", name: "HubSpot", status: "Disconnected", lastSync: "5 days ago" }
+    ],
+    apiKeys: [
