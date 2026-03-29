@@ -282,3 +282,7 @@ export const mockData = {
   settings: {
     teams: [
       { id: "team-revops", name: "Revenue Operations", members: 12, modules: ["CRM", "Deals", "Scheduler"] },
+      { id: "team-support", name: "Support", members: 18, modules: ["Helpdesk", "Chat", "Knowledge"] }
+    ],
+    integrations: [
+      { id: "integration-google", name: "Google Workspace", status: "Connected", lastSync: "18 minutes ago" },
