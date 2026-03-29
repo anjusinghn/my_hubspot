@@ -270,3 +270,7 @@ export const mockData = {
       { id: "KB-203", title: "Automated SLA alerts", status: "Draft", category: "Helpdesk", updatedAt: "Nov 18, 2024", owner: "Support Ops" }
     ],
     editor: {
+      defaultCategory: "Helpdesk",
+      defaultStatus: "Draft",
+      guidelines: [
+        "Lead with the outcome customers are chasing.",
